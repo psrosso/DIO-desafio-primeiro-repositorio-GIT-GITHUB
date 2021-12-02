@@ -1,0 +1,8 @@
+Códigos Git Bash
+
+cd (+nome pasta) = Entrar em uma pasta 
+cd .. = Voltar um nível 
+ls = Listar 
+git status = Verifica o estado do arquivo
+Ctrl L = Limpar terminal 
+mkdir = Criar repositório

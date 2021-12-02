@@ -1,0 +1,18 @@
+Objetos Internos do Git
+
+Blob
+Os arquivos ficam guardados dentro da "Blob" e ele também armazena metadados. 
+Contém: O tipo do objeto (Blob), o tamanh da string/arquivo, um \0 e o conteúdo de fato desse arquivo.
+Isso tudo será encriptografado e irá gerar um Hash1.
+
+Tree
+Árvores armazenam "Blobs" e também o nome dos arquivos.
+Ela é responsável por montar toda a estrutura de onde estão localizados os arquivos.
+Ela pode apontar para "Blob's" ou outras "Trees".
+Isso tudo é encriptografado e irá gerar um Hash1.
+
+Commit
+É o objeto mais importante, ele vai juntar as árvores e as bolhas.
+Ele aponta para uma "Tree", para um "parente" (último commit), para um autor e para uma mensagem e
+também um timestamp (registro de tempo, data, hora de quando foi criado).
+Isso tudo é encriptografado e irá gerar um Hash1.
