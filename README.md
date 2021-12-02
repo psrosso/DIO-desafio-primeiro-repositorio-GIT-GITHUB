@@ -1,2 +1,6 @@
-# DIO-desafio-primeiro-repositorio-GIT-GITHUB
-Desafio de projeto sobre Git/Github
+# Repositório do Desafio sobre Git/Github
+Projeto sobre Git/Github da DIO
+
+
+## Links Úteis 
+[O que são Git e Github](https://blog.betrybe.com/tecnologia/git-e-github/)
